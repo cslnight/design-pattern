@@ -1,0 +1,7 @@
+rootProject.name = 'design-pattern'
+include ':factory'
+include ':factory:abstract-factory'
+include ':factory:factory-method'
+include ':factory:simple-factory'
+include ':factory:factory-pool'
+
