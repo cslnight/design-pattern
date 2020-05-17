@@ -7,13 +7,11 @@ package com.cslnight.factory;
  */
 public class AbstractFactoryTest {
 
+
     public static void main(String[] args) {
-
-        JavaCourseFactory factory = new JavaCourseFactory();
-
+        CourseFactory factory = new JavaCourseFactory();
         factory.createNote().edit();
         factory.createVideo().record();
-
     }
 
 }

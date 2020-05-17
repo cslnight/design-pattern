@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:12.038">
+<file name="E:\oss_code\design-pattern\singleton\src\main\java\com\cslnight\singleton\hungry\HungrySingleton.java">
+<violation beginline="11" endline="20" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.hungry" class="HungrySingleton" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'HungrySingleton' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="13" endline="13" begincolumn="42" endcolumn="56" rule="FieldNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.hungry" class="HungrySingleton" variable="hungrySingleton" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The constant name 'hungrySingleton' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\singleton\src\main\java\com\cslnight\singleton\hungry\HungryStaticSingleton.java">
+<violation beginline="6" endline="22" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.hungry" class="HungryStaticSingleton" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'HungryStaticSingleton' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="10" endline="10" begincolumn="48" endcolumn="62" rule="FieldNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.hungry" class="HungryStaticSingleton" variable="hungrySingleton" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The constant name 'hungrySingleton' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\singleton\src\main\java\com\cslnight\singleton\lazy\LazyDoubleCheckSingleton.java">
+<violation beginline="11" endline="28" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.lazy" class="LazyDoubleCheckSingleton" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'LazyDoubleCheckSingleton' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\singleton\src\main\java\com\cslnight\singleton\lazy\LazySimpleSingletion.java">
+<violation beginline="11" endline="21" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.lazy" class="LazySimpleSingletion" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'LazySimpleSingletion' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\singleton\src\main\java\com\cslnight\singleton\register\ContainerSingleton.java">
+<violation beginline="9" endline="30" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.register" class="ContainerSingleton" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'ContainerSingleton' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="13" endline="13" begincolumn="45" endcolumn="83" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.singleton.register" class="ContainerSingleton" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="13" endline="13" begincolumn="20" endcolumn="84" rule="FieldDeclarationsShouldBeAtStartOfClass" ruleset="Code Style" package="com.cslnight.singleton.register" class="ContainerSingleton" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#fielddeclarationsshouldbeatstartofclass" priority="3">
+Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+</violation>
+<violation beginline="15" endline="15" begincolumn="38" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.singleton.register" class="ContainerSingleton" method="getInstance" variable="className" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'className' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="27" begincolumn="9" endcolumn="9" rule="ConfusingTernary" ruleset="Code Style" package="com.cslnight.singleton.register" class="ContainerSingleton" method="getInstance" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="28" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.singleton.register" class="ContainerSingleton" method="getInstance" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\singleton\src\main\java\com\cslnight\singleton\register\EnumSingleton.java">
+<violation beginline="15" endline="15" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.singleton.register" class="EnumSingleton" method="setData" variable="data" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'data' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\singleton\src\main\java\com\cslnight\singleton\threadlocal\ThreadLocalSingleton.java">
+<violation beginline="6" endline="20" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.threadlocal" class="ThreadLocalSingleton" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'ThreadLocalSingleton' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="7" endline="7" begincolumn="60" endcolumn="78" rule="LongVariable" ruleset="Code Style" package="com.cslnight.singleton.threadlocal" class="ThreadLocalSingleton" variable="threadLocaLInstance" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like threadLocaLInstance
+</violation>
+<violation beginline="7" endline="7" begincolumn="60" endcolumn="78" rule="FieldNamingConventions" ruleset="Code Style" package="com.cslnight.singleton.threadlocal" class="ThreadLocalSingleton" variable="threadLocaLInstance" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The constant name 'threadLocaLInstance' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+</file>
+</pmd>

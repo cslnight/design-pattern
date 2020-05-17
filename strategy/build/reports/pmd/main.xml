@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:12.488">
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\general\ConcreteStrategyA.java">
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.general" class="ConcreteStrategyA" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\general\ConcreteStrategyB.java">
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.general" class="ConcreteStrategyB" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\general\Context.java">
+<violation beginline="7" endline="7" begincolumn="20" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.general" class="Context" method="Context" variable="strategy" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'strategy' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\general\Test.java">
+<violation beginline="6" endline="15" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.strategy.general" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.general" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.general" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'strategy' could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.general" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'context' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\MsgResult.java">
+<violation beginline="11" endline="11" begincolumn="22" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="MsgResult" method="MsgResult" variable="code" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'code' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="44" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="MsgResult" method="MsgResult" variable="data" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'data' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="32" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="MsgResult" method="MsgResult" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\Order.java">
+<violation beginline="14" endline="14" begincolumn="46" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="Order" method="Order" variable="amount" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'amount' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="Order" method="Order" variable="orderId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'orderId' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="18" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="Order" method="Order" variable="uid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'uid' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="26" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="Order" method="pay" variable="payKey" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'payKey' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="9" endcolumn="49" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="Order" method="pay" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'payment' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\Test.java">
+<violation beginline="8" endline="13" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.strategy.pay" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="9" endline="9" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'order' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\payport\AliPay.java">
+<violation beginline="6" endline="14" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="AliPay" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="11" endline="11" begincolumn="35" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="AliPay" method="queryBalance" variable="uid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'uid' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\payport\JDPay.java">
+<violation beginline="6" endline="14" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="JDPay" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="11" endline="11" begincolumn="35" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="JDPay" method="queryBalance" variable="uid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'uid' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\payport\PayStrategy.java">
+<violation beginline="9" endline="31" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="PayStrategy" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'PayStrategy' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="16" endline="16" begincolumn="51" endcolumn="79" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="PayStrategy" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="25" endline="25" begincolumn="31" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="PayStrategy" method="get" variable="payKey" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'payKey' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="13" endcolumn="45" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="PayStrategy" method="get" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\payport\Payment.java">
+<violation beginline="8" endline="22" begincolumn="17" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="Payment" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="13" endline="13" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="Payment" method="pay" variable="amount" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'amount' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="26" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="Payment" method="pay" variable="uid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'uid' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="13" endcolumn="52" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="Payment" method="pay" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\payport\UnionPay.java">
+<violation beginline="6" endline="14" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="UnionPay" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="11" endline="11" begincolumn="35" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="UnionPay" method="queryBalance" variable="uid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'uid' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\pay\payport\WechatPay.java">
+<violation beginline="6" endline="14" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="WechatPay" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="11" endline="11" begincolumn="35" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.pay.payport" class="WechatPay" method="queryBalance" variable="uid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'uid' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\promotion\CashbackStrategy.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="CashbackStrategy" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\promotion\CouponStrategy.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="CouponStrategy" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\promotion\EmptyStrategy.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="EmptyStrategy" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\promotion\GroupbuyStrategy.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="GroupbuyStrategy" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\promotion\PromotionActivity.java">
+<violation beginline="9" endline="9" begincolumn="30" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="PromotionActivity" method="PromotionActivity" variable="strategy" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'strategy' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\promotion\PromotionStrategyFacory.java">
+<violation beginline="10" endline="37" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="PromotionStrategyFacory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'PromotionStrategyFacory' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="12" endline="12" begincolumn="64" endcolumn="103" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="PromotionStrategyFacory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="12" endline="12" begincolumn="51" endcolumn="60" rule="FieldNamingConventions" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="PromotionStrategyFacory" variable="PROMOTIONS" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The static field name 'PROMOTIONS' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="24" endline="24" begincolumn="59" endcolumn="77" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="PromotionStrategyFacory" method="getPromotionStrategy" variable="promotionKey" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'promotionKey' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="9" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="PromotionStrategyFacory" method="getPromotionStrategy" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'strategy' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\strategy\src\main\java\com\cslnight\strategy\promotion\Test.java">
+<violation beginline="6" endline="19" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'promotion' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'promotionKey' could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="9" endcolumn="105" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.strategy.promotion" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'promotionStrategy' could be declared final
+</violation>
+</file>
+</pmd>

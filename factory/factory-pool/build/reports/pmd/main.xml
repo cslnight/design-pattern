@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:14.232">
+<file name="E:\oss_code\design-pattern\factory\factory-pool\src\main\java\org\jdbc\sqlhelper\ConManager.java">
+<violation beginline="14" endline="84" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="org.jdbc.sqlhelper" class="ConManager" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'ConManager' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="29" endline="29" begincolumn="40" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="ConManager" method="closeCon" variable="con" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'con' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="51" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="ConManager" method="getConnection" variable="lookupStr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'lookupStr' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="25" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="ConManager" method="getConnection" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ctx' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="36" endcolumn="37" rule="ShortVariable" ruleset="Code Style" package="org.jdbc.sqlhelper" class="ConManager" method="getConnection" variable="ds" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ds
+</violation>
+<violation beginline="76" endline="76" begincolumn="25" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="ConManager" method="getConnection" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ds' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\factory-pool\src\main\java\org\jdbc\sqlhelper\DBConnectionPool.java">
+<violation beginline="21" endline="21" begincolumn="54" endcolumn="77" rule="UseDiamondOperator" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="51" endline="66" begincolumn="17" endcolumn="9" rule="CallSuperInConstructor" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="DBConnectionPool" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="56" endline="56" begincolumn="44" endcolumn="44" rule="ShortVariable" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="DBConnectionPool" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="56" endline="56" begincolumn="33" endcolumn="62" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="DBConnectionPool" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'c' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="29" endcolumn="30" rule="ShortVariable" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="init" variable="is" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like is
+</violation>
+<violation beginline="74" endline="74" begincolumn="17" endcolumn="91" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="init" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'is' could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="28" endcolumn="28" rule="ShortVariable" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="init" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="75" endline="75" begincolumn="17" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="init" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'p' could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="49" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="freeConnection" variable="con" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'con' is not assigned and could be declared final
+</violation>
+<violation beginline="115" endline="115" begincolumn="25" endcolumn="36" rule="OnlyOneReturn" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="newConnection" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="174" endline="174" begincolumn="54" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="getConnection" variable="timeout" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'timeout' is not assigned and could be declared final
+</violation>
+<violation beginline="175" endline="175" begincolumn="17" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="getConnection" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'startTime' could be declared final
+</violation>
+<violation beginline="183" endline="183" begincolumn="33" endcolumn="44" rule="OnlyOneReturn" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="getConnection" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="195" endline="195" begincolumn="25" endcolumn="79" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="release" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'allConnections' could be declared final
+</violation>
+<violation beginline="199" endline="199" begincolumn="33" endcolumn="90" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="release" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'con' could be declared final
+</violation>
+<violation beginline="220" endline="224" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DBConnectionPool" method="createPool" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\factory-pool\src\main\java\org\jdbc\sqlhelper\DataBaseCmd.java">
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like rs
+</violation>
+<violation beginline="36" endline="36" begincolumn="28" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="DataBaseCmd" variable="datasource" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'datasource' is not assigned and could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="50" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="excuteQuery" variable="cmdtype" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cmdtype' is not assigned and could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="38" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="excuteQuery" variable="sql" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'sql' is not assigned and could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="66" endcolumn="76" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="excuteQuery" variable="values" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'values' is not assigned and could be declared final
+</violation>
+<violation beginline="102" endline="102" begincolumn="44" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="excuteUpdate" variable="cmdtype" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cmdtype' is not assigned and could be declared final
+</violation>
+<violation beginline="102" endline="102" begincolumn="33" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="excuteUpdate" variable="sql" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'sql' is not assigned and could be declared final
+</violation>
+<violation beginline="102" endline="102" begincolumn="60" endcolumn="70" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="excuteUpdate" variable="values" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'values' is not assigned and could be declared final
+</violation>
+<violation beginline="190" endline="190" begincolumn="32" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="setValues" variable="pstmt" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pstmt' is not assigned and could be declared final
+</violation>
+<violation beginline="190" endline="190" begincolumn="56" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="setValues" variable="values" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'values' is not assigned and could be declared final
+</violation>
+<violation beginline="194" endline="194" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="setValues" variable="v" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like v
+</violation>
+<violation beginline="194" endline="194" begincolumn="25" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="setValues" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'v' could be declared final
+</violation>
+<violation beginline="205" endline="205" begincolumn="35" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="DataBaseCmd" method="setDatasource" variable="datasource" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'datasource' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\factory-pool\src\main\java\org\jdbc\sqlhelper\Pool.java">
+<violation beginline="20" endline="170" begincolumn="17" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="org.jdbc.sqlhelper" class="Pool" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Pool
+</violation>
+<violation beginline="65" endline="65" begincolumn="29" endcolumn="30" rule="ShortVariable" ruleset="Code Style" package="org.jdbc.sqlhelper" class="Pool" method="init" variable="is" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like is
+</violation>
+<violation beginline="65" endline="65" begincolumn="17" endcolumn="79" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="Pool" method="init" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'is' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="28" endcolumn="28" rule="ShortVariable" ruleset="Code Style" package="org.jdbc.sqlhelper" class="Pool" method="init" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="66" endline="66" begincolumn="17" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="Pool" method="init" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'p' could be declared final
+</violation>
+<violation beginline="78" endline="78" begincolumn="36" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="Pool" method="loadDrivers" variable="dri" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'dri' is not assigned and could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="17" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="org.jdbc.sqlhelper" class="Pool" method="loadDrivers" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'driverClassName' could be declared final
+</violation>
+</file>
+</pmd>

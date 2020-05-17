@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:13.287">
+<file name="E:\oss_code\design-pattern\factory\abstract-factory\src\main\java\com\cslnight\bean\JavaNote.java">
+<violation beginline="7" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bean" class="JavaNote" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\abstract-factory\src\main\java\com\cslnight\bean\JavaVideo.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bean" class="JavaVideo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\abstract-factory\src\main\java\com\cslnight\bean\PythonNote.java">
+<violation beginline="7" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bean" class="PythonNote" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\abstract-factory\src\main\java\com\cslnight\bean\PythonVideo.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bean" class="PythonVideo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\abstract-factory\src\main\java\com\cslnight\factory\AbstractFactoryTest.java">
+<violation beginline="11" endline="11" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.factory" class="AbstractFactoryTest" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.factory" class="AbstractFactoryTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'factory' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\abstract-factory\src\main\java\com\cslnight\factory\CourseFactory.java">
+<violation beginline="12" endline="22" begincolumn="17" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.factory" class="CourseFactory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\abstract-factory\src\main\java\com\cslnight\factory\JavaCourseFactory.java">
+<violation beginline="11" endline="22" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.factory" class="JavaCourseFactory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\abstract-factory\src\main\java\com\cslnight\factory\PythonCourseFactory.java">
+<violation beginline="11" endline="23" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.factory" class="PythonCourseFactory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+</pmd>

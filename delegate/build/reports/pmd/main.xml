@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:09.598">
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\general\ConcreteA.java">
+<violation beginline="3" endline="7" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.general" class="ConcreteA" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\general\ConcreteB.java">
+<violation beginline="3" endline="7" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.general" class="ConcreteB" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\general\Delegate.java">
+<violation beginline="7" endline="22" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.general" class="Delegate" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\general\Task.java">
+<violation beginline="3" endline="5" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.delegate.general" class="Task" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Task
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\general\Test.java">
+<violation beginline="3" endline="7" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.delegate.general" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="4" endline="4" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.general" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\mvc\DispatcherServlet.java">
+<violation beginline="17" endline="40" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.mvc" class="DispatcherServlet" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="19" endline="19" begincolumn="49" endcolumn="76" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.delegate.mvc" class="DispatcherServlet" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="22" endline="22" begincolumn="28" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.mvc" class="DispatcherServlet" method="service" variable="req" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'req' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="52" endcolumn="75" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.mvc" class="DispatcherServlet" method="service" variable="resp" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'resp' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="29" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.mvc" class="DispatcherServlet" method="doDispatch" variable="req" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'req' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="53" endcolumn="76" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.mvc" class="DispatcherServlet" method="doDispatch" variable="resp" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'resp' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="9" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.mvc" class="DispatcherServlet" method="doDispatch" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'url' could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.mvc" class="DispatcherServlet" method="doDispatch" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'method' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\mvc\controllers\MemberController.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.mvc.controllers" class="MemberController" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="10" begincolumn="12" endcolumn="5" rule="LinguisticNaming" ruleset="Code Style" package="com.cslnight.delegate.mvc.controllers" class="MemberController" method="getMemberById" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The getter 'getMemberById' should not return void linguistically
+</violation>
+<violation beginline="8" endline="8" begincolumn="31" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.mvc.controllers" class="MemberController" method="getMemberById" variable="mid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'mid' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\mvc\controllers\OrderController.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.mvc.controllers" class="OrderController" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="10" begincolumn="12" endcolumn="5" rule="LinguisticNaming" ruleset="Code Style" package="com.cslnight.delegate.mvc.controllers" class="OrderController" method="getOrderById" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The getter 'getOrderById' should not return void linguistically
+</violation>
+<violation beginline="8" endline="8" begincolumn="30" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.mvc.controllers" class="OrderController" method="getOrderById" variable="mid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'mid' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\mvc\controllers\SystemController.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.mvc.controllers" class="SystemController" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\simple\Boss.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.delegate.simple" class="Boss" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Boss
+</violation>
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.simple" class="Boss" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="7" endline="7" begincolumn="37" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.simple" class="Boss" method="command" variable="leader" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'leader' is not assigned and could be declared final
+</violation>
+<violation beginline="7" endline="7" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.simple" class="Boss" method="command" variable="task" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'task' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\simple\EmployeeA.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.simple" class="EmployeeA" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="23" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.simple" class="EmployeeA" method="doing" variable="task" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'task' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\simple\EmployeeB.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.delegate.simple" class="EmployeeB" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="23" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.simple" class="EmployeeB" method="doing" variable="task" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'task' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\simple\Leader.java">
+<violation beginline="11" endline="11" begincolumn="46" endcolumn="76" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.delegate.simple" class="Leader" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="18" endline="18" begincolumn="23" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.simple" class="Leader" method="doing" variable="task" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'task' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\delegate\src\main\java\com\cslnight\delegate\simple\Test.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.delegate.simple" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.delegate.simple" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>

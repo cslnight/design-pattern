@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:10.776">
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\deep\Client.java">
+<violation beginline="12" endline="12" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="Client" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'prototype' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="32" endcolumn="54" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.prototype.deep" class="Client" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="17" endline="17" begincolumn="9" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'hobbies' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'cloneType' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\deep\ConcretePrototype.java">
+<violation beginline="23" endline="23" begincolumn="13" endcolumn="52" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.prototype.deep" class="ConcretePrototype" method="clone" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="71" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="ConcretePrototype" method="deepCloneHobbies" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="13" endcolumn="26" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.prototype.deep" class="ConcretePrototype" method="deepCloneHobbies" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="43" endline="43" begincolumn="13" endcolumn="67" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="ConcretePrototype" method="deepClone" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'bos' could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="13" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="ConcretePrototype" method="deepClone" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'oos' could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="13" endcolumn="82" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="ConcretePrototype" method="deepClone" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'bis' could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="13" endcolumn="62" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.deep" class="ConcretePrototype" method="deepClone" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ois' could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="13" endcolumn="55" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.prototype.deep" class="ConcretePrototype" method="deepClone" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\demo\BeanUtils.java">
+<violation beginline="10" endline="10" begincolumn="31" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.demo" class="BeanUtils" method="copy" variable="protorype" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'protorype' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.demo" class="BeanUtils" method="copy" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'clazz' could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="18" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.demo" class="BeanUtils" method="copy" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'field' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\demo\Client.java">
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.demo" class="Client" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="72" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.demo" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'examPaper' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\demo\ExamPaper.java">
+<violation beginline="8" endline="8" begincolumn="19" endcolumn="36" rule="LongVariable" ruleset="Code Style" package="com.cslnight.prototype.demo" class="ExamPaper" variable="examinationPaperId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like examinationPaperId
+</violation>
+<violation beginline="11" endline="11" begincolumn="19" endcolumn="20" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.prototype.demo" class="ExamPaper" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="19" endline="19" begincolumn="19" endcolumn="41" rule="LongVariable" ruleset="Code Style" package="com.cslnight.prototype.demo" class="ExamPaper" variable="singleSelectionImpCount" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like singleSelectionImpCount
+</violation>
+<violation beginline="20" endline="20" begincolumn="19" endcolumn="40" rule="LongVariable" ruleset="Code Style" package="com.cslnight.prototype.demo" class="ExamPaper" variable="multiSelectionImpCount" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like multiSelectionImpCount
+</violation>
+<violation beginline="33" endline="33" begincolumn="7" endcolumn="43" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.demo" class="ExamPaper" method="copy" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'examPaper' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\general\Client.java">
+<violation beginline="9" endline="9" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.general" class="Client" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.general" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'prototype' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.general" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'cloneType' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\general\ConcretePrototype.java">
+<violation beginline="6" endline="42" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.prototype.general" class="ConcretePrototype" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="15" endline="15" begincolumn="24" endcolumn="30" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.general" class="ConcretePrototype" method="setAge" variable="age" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'age' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.general" class="ConcretePrototype" method="setName" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="9" endcolumn="69" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.general" class="ConcretePrototype" method="clone" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'concretePrototype' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\shallow\Client.java">
+<violation beginline="12" endline="12" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.shallow" class="Client" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.shallow" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'prototype' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="32" endcolumn="54" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.prototype.shallow" class="Client" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="17" endline="17" begincolumn="9" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.shallow" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'hobbies' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.shallow" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'cloneType' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\shallow\ConcretePrototype.java">
+<violation beginline="21" endline="21" begincolumn="13" endcolumn="52" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.prototype.shallow" class="ConcretePrototype" method="clone" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\prototype\src\main\java\com\cslnight\prototype\singleton\Client.java">
+<violation beginline="12" endline="12" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.singleton" class="Client" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="69" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.singleton" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'prototype' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="32" endcolumn="54" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.prototype.singleton" class="Client" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="17" endline="17" begincolumn="9" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.singleton" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'hobbies' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.prototype.singleton" class="Client" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'cloneType' could be declared final
+</violation>
+</file>
+</pmd>

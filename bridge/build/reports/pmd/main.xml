@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:06.222">
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\Test.java">
+<violation beginline="11" endline="27" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.bridge" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="12" endline="12" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="13" endcolumn="109" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'conn' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="13" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stmt' could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="23" endcolumn="24" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.bridge" class="Test" method="main" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like rs
+</violation>
+<violation beginline="22" endline="22" begincolumn="13" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'rs' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\course\AbstractCourse.java">
+<violation beginline="6" endline="25" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.course" class="AbstractCourse" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="10" begincolumn="25" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.course" class="AbstractCourse" method="setNote" variable="note" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'note' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="26" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.course" class="AbstractCourse" method="setVideo" variable="video" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'video' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\course\JavaCourse.java">
+<violation beginline="6" endline="7" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.course" class="JavaCourse" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\course\JavaNote.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.course" class="JavaNote" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\course\JavaVideo.java">
+<violation beginline="6" endline="7" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.course" class="JavaVideo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\course\PythonCourse.java">
+<violation beginline="6" endline="7" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.course" class="PythonCourse" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\course\PythonNote.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.course" class="PythonNote" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\course\PythonVideo.java">
+<violation beginline="6" endline="7" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.course" class="PythonVideo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\general\Abstraction.java">
+<violation beginline="8" endline="8" begincolumn="24" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.general" class="Abstraction" method="Abstraction" variable="implementor" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'implementor' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\general\ConcreteImplementorA.java">
+<violation beginline="4" endline="9" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.general" class="ConcreteImplementorA" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\general\ConcreteImplementorB.java">
+<violation beginline="4" endline="9" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.general" class="ConcreteImplementorB" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\general\RefinedAbstraction.java">
+<violation beginline="5" endline="5" begincolumn="31" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.general" class="RefinedAbstraction" method="RefinedAbstraction" variable="implementor" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'implementor' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\general\Test.java">
+<violation beginline="6" endline="15" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.bridge.general" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.general" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.general" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'imp' could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.general" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'abs' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\message\AbastractMessage.java">
+<violation beginline="9" endline="9" begincolumn="29" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="AbastractMessage" method="AbastractMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="22" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="AbastractMessage" method="sendMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="37" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="AbastractMessage" method="sendMessage" variable="toUser" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'toUser' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="14" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="com.cslnight.bridge.message" class="AbastractMessage" method="sendMessage" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the sendMessage method if you want a default access modifier
+</violation>
+<violation beginline="12" endline="14" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="com.cslnight.bridge.message" class="AbastractMessage" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\message\EmailMessage.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.message" class="EmailMessage" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="7" endline="7" begincolumn="22" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="EmailMessage" method="send" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="7" endline="7" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="EmailMessage" method="send" variable="toUser" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'toUser' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\message\NomalMessage.java">
+<violation beginline="7" endline="7" begincolumn="25" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="NomalMessage" method="NomalMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\message\SmsMessage.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.bridge.message" class="SmsMessage" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="7" endline="7" begincolumn="22" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="SmsMessage" method="send" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="7" endline="7" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="SmsMessage" method="send" variable="toUser" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'toUser' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\message\Test.java">
+<violation beginline="6" endline="17" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.bridge.message" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\bridge\src\main\java\com\cslnight\bridge\message\UrgencyMessage.java">
+<violation beginline="7" endline="7" begincolumn="27" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="UrgencyMessage" method="UrgencyMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="UrgencyMessage" method="sendMessage" variable="toUser" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'toUser' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="14" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="com.cslnight.bridge.message" class="UrgencyMessage" method="sendMessage" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the sendMessage method if you want a default access modifier
+</violation>
+<violation beginline="11" endline="14" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="com.cslnight.bridge.message" class="UrgencyMessage" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="16" endline="16" begincolumn="25" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.bridge.message" class="UrgencyMessage" method="watch" variable="messageId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'messageId' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>

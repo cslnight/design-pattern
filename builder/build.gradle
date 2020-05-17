@@ -1,0 +1,4 @@
+dependencies {
+    implementation group: 'org.mybatis', name: 'mybatis', version: '3.5.4'
+    implementation group: 'org.springframework', name: 'spring-beans', version: '5.2.6.RELEASE'
+}

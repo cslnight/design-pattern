@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:09.945">
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\general\Facade.java">
+<violation beginline="4" endline="23" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.facade.general" class="Facade" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="5" begincolumn="24" endcolumn="24" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.facade.general" class="Facade" variable="a" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like a
+</violation>
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="24" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.facade.general" class="Facade" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="7" endline="7" begincolumn="24" endcolumn="24" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.facade.general" class="Facade" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\general\SubSystemA.java">
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.facade.general" class="SubSystemA" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\general\SubSystemB.java">
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.facade.general" class="SubSystemB" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\general\SubSystemC.java">
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.facade.general" class="SubSystemC" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\general\Test.java">
+<violation beginline="3" endline="11" begincolumn="1" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.facade.general" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="5" endline="5" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.general" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.general" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'facade' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\points\FacadeService.java">
+<violation beginline="6" endline="20" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.facade.points" class="FacadeService" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="12" endline="12" begincolumn="26" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="FacadeService" method="exchange" variable="giftInfo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'giftInfo' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="17" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="FacadeService" method="exchange" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'shippingNo' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\points\GiftInfo.java">
+<violation beginline="10" endline="10" begincolumn="21" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="GiftInfo" method="GiftInfo" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\points\PaymentService.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.facade.points" class="PaymentService" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="24" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="PaymentService" method="pay" variable="giftInfo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'giftInfo' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\points\QualifyService.java">
+<violation beginline="6" endline="13" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.facade.points" class="QualifyService" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="32" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="QualifyService" method="isAvailable" variable="giftInfo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'giftInfo' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\points\ShippingService.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.facade.points" class="ShippingService" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="7" endline="7" begincolumn="28" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="ShippingService" method="delivery" variable="giftInfo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'giftInfo' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="ShippingService" method="delivery" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'shippingNo' could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="26" rule="UnnecessaryLocalBeforeReturn" ruleset="Code Style" package="com.cslnight.facade.points" class="ShippingService" method="delivery" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'shippingNo'
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\facade\src\main\java\com\cslnight\facade\points\Test.java">
+<violation beginline="6" endline="18" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.facade.points" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="8" endline="8" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'facadeService' could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.facade.points" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'giftInfo' could be declared final
+</violation>
+</file>
+</pmd>

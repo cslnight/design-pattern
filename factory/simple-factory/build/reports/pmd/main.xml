@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:14.620">
+<file name="E:\oss_code\design-pattern\factory\simple-factory\src\main\java\com\cslnight\factory\JavaCourse.java">
+<violation beginline="7" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.factory" class="JavaCourse" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\simple-factory\src\main\java\com\cslnight\factory\PythonCourse.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.factory" class="PythonCourse" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\simple-factory\src\main\java\com\cslnight\factory\simplefactory\CourseFactory.java">
+<violation beginline="9" endline="44" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.factory.simplefactory" class="CourseFactory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="33" endline="33" begincolumn="27" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.factory.simplefactory" class="CourseFactory" method="create" variable="clazz" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'clazz' is not assigned and could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="17" endcolumn="43" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.factory.simplefactory" class="CourseFactory" method="create" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\factory\simple-factory\src\main\java\com\cslnight\factory\simplefactory\SimpleFactoryTest.java">
+<violation beginline="19" endline="19" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.factory.simplefactory" class="SimpleFactoryTest" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.factory.simplefactory" class="SimpleFactoryTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'factory' could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.factory.simplefactory" class="SimpleFactoryTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'course' could be declared final
+</violation>
+</file>
+</pmd>

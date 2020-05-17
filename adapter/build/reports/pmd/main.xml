@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:04.615">
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\Member.java">
+<violation beginline="6" endline="44" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="Member" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="17" endline="17" begincolumn="29" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="Member" method="setUsername" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="29" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="Member" method="setPassword" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'password' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="24" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="Member" method="setMid" variable="mid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'mid' is not assigned and could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="Member" method="setInfo" variable="info" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'info' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\PassportService.java">
+<violation beginline="6" endline="28" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="PassportService" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="45" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="PassportService" method="regist" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'password' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="29" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="PassportService" method="regist" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="44" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="PassportService" method="login" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'password' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="28" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="PassportService" method="login" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\ResultMsg.java">
+<violation beginline="12" endline="12" begincolumn="22" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="ResultMsg" method="ResultMsg" variable="code" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'code' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="44" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="ResultMsg" method="ResultMsg" variable="data" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'data' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="32" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="ResultMsg" method="ResultMsg" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="25" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="ResultMsg" method="setCode" variable="code" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'code' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="24" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="ResultMsg" method="setMsg" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport" class="ResultMsg" method="setData" variable="data" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'data' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv1\PassportForThirdAdapter.java">
+<violation beginline="9" endline="34" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="PassportForThirdAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="11" endline="11" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="PassportForThirdAdapter" method="loginForQQ" variable="openId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'openId' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="37" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="PassportForThirdAdapter" method="loginForWechat" variable="openId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'openId' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="PassportForThirdAdapter" method="loginForToken" variable="token" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'token' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="53" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="PassportForThirdAdapter" method="loginForTelphone" variable="code" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'code' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="39" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="PassportForThirdAdapter" method="loginForTelphone" variable="phone" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'phone' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="38" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="PassportForThirdAdapter" method="loginForRegist" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv1\Test.java">
+<violation beginline="6" endline="13" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="71" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv1" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv2\PassportForThirdAdapter.java">
+<violation beginline="9" endline="43" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="11" endline="11" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="loginForQQ" variable="openId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'openId' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="37" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="loginForWechat" variable="openId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'openId' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="loginForToken" variable="token" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'token' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="53" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="loginForTelphone" variable="code" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'code' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="39" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="loginForTelphone" variable="phone" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'phone' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="43" endcolumn="44" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="processLogin" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="31" endline="31" begincolumn="46" endcolumn="81" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="processLogin" variable="clazz" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'clazz' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="36" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="processLogin" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="13" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="processLogin" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="17" endcolumn="49" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="PassportForThirdAdapter" method="processLogin" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv2\Test.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv2\adapters\AbstraceAdapter.java">
+<violation beginline="9" endline="17" begincolumn="17" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="AbstraceAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="10" begincolumn="40" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="AbstraceAdapter" method="loginForRegist" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv2\adapters\ILoginAdapter.java">
+<violation beginline="10" endline="10" begincolumn="28" endcolumn="29" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="ILoginAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv2\adapters\LoginForQQAdapter.java">
+<violation beginline="8" endline="21" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForQQAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="9" endline="9" begincolumn="28" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForQQAdapter" method="support" variable="adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adapter' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="35" endcolumn="36" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForQQAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="13" endline="13" begincolumn="39" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForQQAdapter" method="login" variable="adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adapter' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="28" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForQQAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="31" endcolumn="42" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForQQAdapter" method="login" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv2\adapters\LoginForTelAdapter.java">
+<violation beginline="8" endline="17" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTelAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="9" endline="9" begincolumn="28" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTelAdapter" method="support" variable="adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adapter' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="35" endcolumn="36" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTelAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="13" endline="13" begincolumn="39" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTelAdapter" method="login" variable="adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adapter' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="28" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTelAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv2\adapters\LoginForTokenAdapter.java">
+<violation beginline="8" endline="17" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTokenAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="9" endline="9" begincolumn="28" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTokenAdapter" method="support" variable="adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adapter' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="35" endcolumn="36" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTokenAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="13" endline="13" begincolumn="39" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTokenAdapter" method="login" variable="adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adapter' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="28" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForTokenAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\passport\adapterv2\adapters\LoginForWechatAdapter.java">
+<violation beginline="8" endline="18" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForWechatAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="9" endline="9" begincolumn="28" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForWechatAdapter" method="support" variable="adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adapter' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="35" endcolumn="36" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForWechatAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="13" endline="13" begincolumn="39" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForWechatAdapter" method="login" variable="adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adapter' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="28" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.passport.adapterv2.adapters" class="LoginForWechatAdapter" method="login" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\classadapter\AC220.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="AC220" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="AC220" method="outputAC220V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'output' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\classadapter\DC5.java">
+<violation beginline="6" endline="8" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="DC5" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like DC5
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\classadapter\PowerAdapter.java">
+<violation beginline="6" endline="13" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="PowerAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="PowerAdapter" method="output5V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapterInput' could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="PowerAdapter" method="output5V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapterOutput' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\classadapter\Test.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.classadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\interfaceadapter\AC220.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="AC220" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="AC220" method="outputAC220V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'output' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\interfaceadapter\DC.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="DC" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like DC
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\interfaceadapter\PowerAdapter.java">
+<violation beginline="9" endline="9" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="PowerAdapter" method="PowerAdapter" variable="ac220" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ac220' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="PowerAdapter" method="output5V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapterInput' could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="PowerAdapter" method="output5V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapterOutput' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\interfaceadapter\Test.java">
+<violation beginline="7" endline="12" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="8" endline="8" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.interfaceadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\objectadapter\AC220.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="AC220" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="AC220" method="outputAC220V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'output' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\objectadapter\DC5.java">
+<violation beginline="6" endline="8" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="DC5" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like DC5
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\objectadapter\PowerAdapter.java">
+<violation beginline="11" endline="11" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="PowerAdapter" method="PowerAdapter" variable="ac220" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ac220' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="PowerAdapter" method="output5V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapterInput' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="PowerAdapter" method="output5V" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapterOutput' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\demo\power\objectadapter\Test.java">
+<violation beginline="7" endline="12" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="8" endline="8" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.demo.power.objectadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\classadapter\Adaptee.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.general.classadapter" class="Adaptee" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\classadapter\Adapter.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.general.classadapter" class="Adapter" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\classadapter\Test.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.general.classadapter" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.classadapter" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.classadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.classadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\interfaceadapter\Adaptee.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Adaptee" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\interfaceadapter\Adapter.java">
+<violation beginline="10" endline="10" begincolumn="20" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Adapter" method="Adapter" variable="adaptee" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adaptee' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="16" begincolumn="12" endcolumn="5" rule="EmptyMethodInAbstractClassShouldBeAbstract" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Adapter" method="request1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#emptymethodinabstractclassshouldbeabstract" priority="1">
+An empty method in an abstract class should be abstract instead
+</violation>
+<violation beginline="18" endline="20" begincolumn="12" endcolumn="5" rule="EmptyMethodInAbstractClassShouldBeAbstract" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Adapter" method="request2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#emptymethodinabstractclassshouldbeabstract" priority="1">
+An empty method in an abstract class should be abstract instead
+</violation>
+<violation beginline="22" endline="24" begincolumn="12" endcolumn="5" rule="EmptyMethodInAbstractClassShouldBeAbstract" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Adapter" method="request3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#emptymethodinabstractclassshouldbeabstract" priority="1">
+An empty method in an abstract class should be abstract instead
+</violation>
+<violation beginline="26" endline="28" begincolumn="12" endcolumn="5" rule="EmptyMethodInAbstractClassShouldBeAbstract" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Adapter" method="request4" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#emptymethodinabstractclassshouldbeabstract" priority="1">
+An empty method in an abstract class should be abstract instead
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\interfaceadapter\Test.java">
+<violation beginline="7" endline="18" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="8" endline="8" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="14" begincolumn="9" endcolumn="9" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="9" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.interfaceadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\objectadapter\Adaptee.java">
+<violation beginline="6" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.cslnight.adapter.general.objectadapter" class="Adaptee" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\objectadapter\Adapter.java">
+<violation beginline="8" endline="8" begincolumn="20" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.objectadapter" class="Adapter" method="Adapter" variable="adaptee" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'adaptee' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\adapter\src\main\java\com\cslnight\adapter\general\objectadapter\Test.java">
+<violation beginline="6" endline="12" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.adapter.general.objectadapter" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.objectadapter" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.objectadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'adapter' could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.adapter.general.objectadapter" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+</file>
+</pmd>

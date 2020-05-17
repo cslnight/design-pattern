@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-05-17T11:16:10.361">
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\general\ConcreteFlyweight.java">
+<violation beginline="7" endline="7" begincolumn="30" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.general" class="ConcreteFlyweight" method="ConcreteFlyweight" variable="intrinsicState" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'intrinsicState' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="27" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.general" class="ConcreteFlyweight" method="operation" variable="extrinsicState" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'extrinsicState' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\general\FlyweightFactory.java">
+<violation beginline="7" endline="18" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.flyweight.general" class="FlyweightFactory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'FlyweightFactory' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="8" endline="8" begincolumn="51" endcolumn="83" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.flyweight.general" class="FlyweightFactory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="11" endline="11" begincolumn="43" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.general" class="FlyweightFactory" method="getFlyweight" variable="intrinsicState" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'intrinsicState' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="13" endcolumn="72" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.general" class="FlyweightFactory" method="getFlyweight" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'flyweight' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\general\Test.java">
+<violation beginline="6" endline="13" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.flyweight.general" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.general" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="67" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.general" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'flyweight1' could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="67" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.general" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'flyweight2' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\jdk\integer\IntegerTest.java">
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="17" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="a" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like a
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'a' could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="17" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'b' could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="17" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'c' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="17" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="d" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like d
+</violation>
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.integer" class="IntegerTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'd' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\jdk\string\StringTest.java">
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s1
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's1' could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s2
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's2' could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s3
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's3' could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s4" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s4
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's4' could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s5" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s5
+</violation>
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's5' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s6" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s6
+</violation>
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's6' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s7" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s7
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's7' could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s8" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s8
+</violation>
+<violation beginline="15" endline="15" begincolumn="9" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's8' could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="s9" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s9
+</violation>
+<violation beginline="16" endline="16" begincolumn="9" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.jdk.string" class="StringTest" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's9' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\pool\ConnectionPool.java">
+<violation beginline="21" endline="21" begincolumn="16" endcolumn="47" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="ConnectionPool" method="ConnectionPool" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="26" endline="26" begincolumn="17" endcolumn="84" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="ConnectionPool" method="ConnectionPool" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'conn' could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="ConnectionPool" method="getConnection" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'conn' could be declared final
+</violation>
+<violation beginline="39" endline="39" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="ConnectionPool" method="getConnection" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="44" endline="44" begincolumn="38" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="ConnectionPool" method="release" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'conn' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\pool\Test.java">
+<violation beginline="8" endline="14" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="9" endline="9" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pool' could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.pool" class="Test" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'conn' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\ticket\Test.java">
+<violation beginline="3" endline="14" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Test
+</violation>
+<violation beginline="5" endline="5" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="Test" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\ticket\TicketFactory.java">
+<violation beginline="6" endline="20" begincolumn="1" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TicketFactory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'TicketFactory' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="7" endline="7" begincolumn="55" endcolumn="93" rule="UseDiamondOperator" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TicketFactory" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="9" endline="9" begincolumn="59" endcolumn="60" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TicketFactory" method="queryTicket" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like to
+</violation>
+<violation beginline="9" endline="9" begincolumn="39" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TicketFactory" method="queryTicket" variable="from" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'from' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="52" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TicketFactory" method="queryTicket" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'to' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TicketFactory" method="queryTicket" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'key' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="13" endcolumn="54" rule="OnlyOneReturn" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TicketFactory" method="queryTicket" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="16" endline="16" begincolumn="9" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TicketFactory" method="queryTicket" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ticket' could be declared final
+</violation>
+</file>
+<file name="E:\oss_code\design-pattern\flyweight\src\main\java\com\cslnight\flyweight\ticket\TrainTicket.java">
+<violation beginline="7" endline="7" begincolumn="20" endcolumn="21" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TrainTicket" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like to
+</violation>
+<violation beginline="10" endline="10" begincolumn="44" endcolumn="45" rule="ShortVariable" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TrainTicket" method="TrainTicket" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like to
+</violation>
+<violation beginline="10" endline="10" begincolumn="24" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TrainTicket" method="TrainTicket" variable="from" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'from' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="37" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TrainTicket" method="TrainTicket" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'to' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="26" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.cslnight.flyweight.ticket" class="TrainTicket" method="showInfo" variable="bunk" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'bunk' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>
